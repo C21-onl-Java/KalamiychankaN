@@ -6,7 +6,7 @@ public class Season_SwitchCase {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите номер месяца");
-        int month= scanner.nextInt();
+        int month = scanner.nextInt();
 
         switch (month) {
             case 12:
