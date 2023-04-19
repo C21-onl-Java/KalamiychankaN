@@ -14,8 +14,8 @@ public class RandomNumbers {
             array[i] = (int) (Math.random() * 100);
         }
         Arrays.sort(array);
-        System.out.println("Макс. значение "+ array[size-1] );
-        System.out.println("Среднее значение "+ array[size/2]);
-        System.out.println("Минимальное значение "+ array[0]);
+        System.out.println("Макс. значение " + array[size - 1]);
+        System.out.println("Среднее значение " + array[size / 2]);
+        System.out.println("Минимальное значение " + array[0]);
     }
 }

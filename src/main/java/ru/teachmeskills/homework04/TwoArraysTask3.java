@@ -12,9 +12,18 @@ public class TwoArraysTask3 {
             summ1+=array1[i];
             summ2+=array2[i];
         }
+        summ1/=5;
+        summ2/=5;
         System.out.println(Arrays.toString(array1));
         System.out.println(Arrays.toString(array2));
-        System.out.println("Среднее ар. 1 массива " + summ1/5);
-        System.out.println("Среднее ар. 2 массива " +summ2/5);
+        System.out.println("Среднее ар. 1 массива " + summ1);
+        System.out.println("Среднее ар. 2 массива " + summ2);
+        if (summ1 > summ2){
+            System.out.println("Среднее ар. 1 массива больше");
+        } else if (summ2 > summ1){
+            System.out.println("Среднее ар. 2 массива больше");
+        } else {
+            System.out.println("Средние ар. - равны");
+        }
     }
 }

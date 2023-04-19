@@ -20,12 +20,12 @@ public class DeleteNumber {
             System.out.println("Число не найдено");
         } else {
             int[] removedNum = new int[nums.length - noNum];
-            for (int i = 0; i < nums.length; i++){
-               if (nums[i]!=remove){
-                   removedNum[j]=nums[i];
-                   j++;
-               }
-           }
+            for (int i = 0; i < nums.length; i++) {
+                if (nums[i] != remove) {
+                    removedNum[j] = nums[i];
+                    j++;
+                }
+            }
             System.out.println(Arrays.toString(removedNum));
         }
     }
