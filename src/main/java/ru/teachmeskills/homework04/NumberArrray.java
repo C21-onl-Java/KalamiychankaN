@@ -11,6 +11,10 @@ public class NumberArrray {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == Search) {
                 System.out.println("Число найдено");
+                break;
+            } else {
+                System.out.println("Число не найдено");
+                break;
             }
         }
     }
