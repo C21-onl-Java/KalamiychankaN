@@ -11,8 +11,11 @@ public class RandomNumbers {
         int size = scanner.nextInt();
         int[] array = new int[size];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 10);
+            array[i] = (int) (Math.random() * 100);
         }
-        System.out.println(Arrays.toString(array));
+        Arrays.sort(array);
+        System.out.println("Макс. значение "+ array[size-1] );
+        System.out.println("Среднее значение "+ array[size/2]);
+        System.out.println("Минимальное значение "+ array[0]);
     }
 }
