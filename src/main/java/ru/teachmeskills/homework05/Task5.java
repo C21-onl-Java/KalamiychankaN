@@ -11,7 +11,7 @@ public class Task5 {
         System.out.println("Введите количество строк и столбцов");
         int rowCount = scanner.nextInt();
         int columnCount = scanner.nextInt();
-        int [][] array = new int[rowCount][columnCount];
+        int[][] array = new int[rowCount][columnCount];
         System.out.println(Arrays.toString(array));
         for (int i = 0; i < rowCount; i++) {
             for (int j = 0; j < columnCount; j++) {
