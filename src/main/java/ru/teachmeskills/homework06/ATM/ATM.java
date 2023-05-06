@@ -5,17 +5,19 @@ public class ATM {
     private int num50;
     private int num100;
 
-    public ATM(int num20, int num50, int num100){
+    public ATM(int num20, int num50, int num100) {
         this.num20 = num20;
         this.num50 = num50;
         this.num100 = num100;
     }
-    public void addMoney(int num20, int num50, int num100){
-        this.num20+=num20;
-        this.num50+=num50;
-        this.num100+=num100;
+
+    public void addMoney(int num20, int num50, int num100) {
+        this.num20 += num20;
+        this.num50 += num50;
+        this.num100 += num100;
     }
-    public boolean withdrawMoney(int amount){
+
+    public boolean withdrawMoney(int amount) {
         int totalAmount = amount;
         int num100withdraw = Math.min(totalAmount / 100, num100);
         totalAmount -= num100withdraw * 100;
