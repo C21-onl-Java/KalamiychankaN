@@ -13,6 +13,8 @@ public class FinancialInvoice extends AbstractDocument {
         this.totalAmount = totalAmount;
         this.departmentCode = departmentCode;
     }
+    public FinancialInvoice(){
+    }
 
     @Override
     public void displayInfo() {

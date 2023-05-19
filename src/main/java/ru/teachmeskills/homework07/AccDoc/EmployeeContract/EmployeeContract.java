@@ -13,6 +13,8 @@ public class EmployeeContract extends AbstractDocument {
         this.contractEndDate = contractEndDate;
         this.employeeName = employeeName;
     }
+    public EmployeeContract(){
+    }
 
     @Override
     public void displayInfo() {

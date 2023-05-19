@@ -12,4 +12,6 @@ public abstract class AbstractDocument implements Document {
         this.documentNumber = documentNumber;
         this.documentDate = documentDate;
     }
+    public AbstractDocument(){
+    }
 }

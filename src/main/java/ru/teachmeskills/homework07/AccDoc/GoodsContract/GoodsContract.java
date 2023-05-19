@@ -13,6 +13,8 @@ public class GoodsContract extends AbstractDocument {
         this.goodsType = goodsType;
         this.goodsQuantity = goodsQuantity;
     }
+    public GoodsContract() {
+    }
 
     @Override
     public void displayInfo() {
