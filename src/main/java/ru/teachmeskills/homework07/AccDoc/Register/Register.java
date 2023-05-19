@@ -1,4 +1,6 @@
-package ru.teachmeskills.homework07.AccDoc;
+package ru.teachmeskills.homework07.AccDoc.Register;
+
+import ru.teachmeskills.homework07.AccDoc.Document.Document;
 
 public class Register {
     private Document[] documents;

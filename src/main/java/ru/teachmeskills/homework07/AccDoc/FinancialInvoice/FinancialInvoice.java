@@ -1,4 +1,6 @@
-package ru.teachmeskills.homework07.AccDoc;
+package ru.teachmeskills.homework07.AccDoc.FinancialInvoice;
+
+import ru.teachmeskills.homework07.AccDoc.AbstractDocument.AbstractDocument;
 
 import java.util.Date;
 

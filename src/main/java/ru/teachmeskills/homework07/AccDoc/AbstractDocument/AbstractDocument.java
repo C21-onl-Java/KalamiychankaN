@@ -1,4 +1,6 @@
-package ru.teachmeskills.homework07.AccDoc;
+package ru.teachmeskills.homework07.AccDoc.AbstractDocument;
+
+import ru.teachmeskills.homework07.AccDoc.Document.Document;
 
 import java.util.Date;
 
