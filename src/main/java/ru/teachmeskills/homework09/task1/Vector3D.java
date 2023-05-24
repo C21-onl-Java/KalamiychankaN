@@ -44,9 +44,7 @@ public class Vector3D extends Vector2D {
 
     @Override
     public boolean isEqual(Vector2D vector) {
-        if (vector instanceof Vector3D) {
-            Vector3D other = (Vector3D) vector;
-            return x == other.x && y == other.y && z == other.z;
+        if (!(vector instanceof Vector3D)) {
         }
         return false;
     }
