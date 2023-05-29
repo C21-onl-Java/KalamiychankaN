@@ -41,7 +41,7 @@ public class Vector2D {
     }
 
     public boolean isEqual(Vector2D vector) {
-        return x == vector.x && y == vector.y;
+        return super.equals(vector);
     }
 
     public void printInfo() {

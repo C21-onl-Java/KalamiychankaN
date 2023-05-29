@@ -42,11 +42,8 @@ public class Vector3D extends Vector2D {
         return vectors;
     }
 
-    @Override
-    public boolean isEqual(Vector2D vector) {
-        if (!(vector instanceof Vector3D)) {
-        }
-        return false;
+    public boolean isEqual(Vector3D vector) {
+        return super.equals(vector);
     }
 
     @Override
