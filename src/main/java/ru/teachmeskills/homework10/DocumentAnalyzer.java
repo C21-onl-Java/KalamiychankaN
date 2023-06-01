@@ -46,6 +46,9 @@ public class DocumentAnalyzer {
         if (documentNum.toLowerCase().contains(sequence.toLowerCase())) {
             System.out.println("Содержит последовательность " + sequence);
         }
+        else {
+            System.out.println("Не содержит последовательности: " + sequence);
+        }
     }
 
     public static void checkStartsWithSequence(String documentNumber, String sequence) {
